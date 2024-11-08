@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"actionButtons": { 
+			"cwd": "${workspaceFolder}", 
+		   	"commands": [
+				{
+						
+					"name": "$(file-binary) Build",
+					"color": "red",
+					"command": "./build.sh", 
+				},
+				{
+					"name": "$(trash) Clean",
+					"color": "green",
+					"command": "rm ./ql_out/* & rm -rf ./ql_build/gccout/*",
+				},
+				{
+					"name": "$(arrow-down) Burn",
+					"color": "orange",
+					"command": "./ql_tools/burning/uartprogram  ./ql_out/all_2M.1220.bin -s 0x0 -u -w"
+				}
+   		 	]
+		}
+	}
+}

@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/paho-mqtt.dir/client/paho_mqtt_udp.c.obj"
+  "CMakeFiles/paho-mqtt.dir/client/paho_mqtt_udp.c.obj.d"
+  "CMakeFiles/paho-mqtt.dir/client/src/MQTTClient.c.obj"
+  "CMakeFiles/paho-mqtt.dir/client/src/MQTTClient.c.obj.d"
+  "CMakeFiles/paho-mqtt.dir/client/src/MQTTFreeRTOS.c.obj"
+  "CMakeFiles/paho-mqtt.dir/client/src/MQTTFreeRTOS.c.obj.d"
+  "CMakeFiles/paho-mqtt.dir/mqtt_ui/mqtt_client_com_port.c.obj"
+  "CMakeFiles/paho-mqtt.dir/mqtt_ui/mqtt_client_com_port.c.obj.d"
+  "CMakeFiles/paho-mqtt.dir/mqtt_ui/mqtt_client_core.c.obj"
+  "CMakeFiles/paho-mqtt.dir/mqtt_ui/mqtt_client_core.c.obj.d"
+  "CMakeFiles/paho-mqtt.dir/mqtt_ui/ssl_mqtt/ssl_mqtt_client_port.c.obj"
+  "CMakeFiles/paho-mqtt.dir/mqtt_ui/ssl_mqtt/ssl_mqtt_client_port.c.obj.d"
+  "CMakeFiles/paho-mqtt.dir/mqtt_ui/tcp_mqtt/tcp_mqtt_client_port.c.obj"
+  "CMakeFiles/paho-mqtt.dir/mqtt_ui/tcp_mqtt/tcp_mqtt_client_port.c.obj.d"
+  "CMakeFiles/paho-mqtt.dir/packet/src/MQTTConnectClient.c.obj"
+  "CMakeFiles/paho-mqtt.dir/packet/src/MQTTConnectClient.c.obj.d"
+  "CMakeFiles/paho-mqtt.dir/packet/src/MQTTConnectServer.c.obj"
+  "CMakeFiles/paho-mqtt.dir/packet/src/MQTTConnectServer.c.obj.d"
+  "CMakeFiles/paho-mqtt.dir/packet/src/MQTTDeserializePublish.c.obj"
+  "CMakeFiles/paho-mqtt.dir/packet/src/MQTTDeserializePublish.c.obj.d"
+  "CMakeFiles/paho-mqtt.dir/packet/src/MQTTFormat.c.obj"
+  "CMakeFiles/paho-mqtt.dir/packet/src/MQTTFormat.c.obj.d"
+  "CMakeFiles/paho-mqtt.dir/packet/src/MQTTPacket.c.obj"
+  "CMakeFiles/paho-mqtt.dir/packet/src/MQTTPacket.c.obj.d"
+  "CMakeFiles/paho-mqtt.dir/packet/src/MQTTSerializePublish.c.obj"
+  "CMakeFiles/paho-mqtt.dir/packet/src/MQTTSerializePublish.c.obj.d"
+  "CMakeFiles/paho-mqtt.dir/packet/src/MQTTSubscribeClient.c.obj"
+  "CMakeFiles/paho-mqtt.dir/packet/src/MQTTSubscribeClient.c.obj.d"
+  "CMakeFiles/paho-mqtt.dir/packet/src/MQTTSubscribeServer.c.obj"
+  "CMakeFiles/paho-mqtt.dir/packet/src/MQTTSubscribeServer.c.obj.d"
+  "CMakeFiles/paho-mqtt.dir/packet/src/MQTTUnsubscribeClient.c.obj"
+  "CMakeFiles/paho-mqtt.dir/packet/src/MQTTUnsubscribeClient.c.obj.d"
+  "CMakeFiles/paho-mqtt.dir/packet/src/MQTTUnsubscribeServer.c.obj"
+  "CMakeFiles/paho-mqtt.dir/packet/src/MQTTUnsubscribeServer.c.obj.d"
+  "libpaho-mqtt.a"
+  "libpaho-mqtt.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/paho-mqtt.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

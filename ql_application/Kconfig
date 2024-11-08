@@ -1,0 +1,35 @@
+menu "quectel example configuration"
+
+config  ENABLE_QUECTEL_UART_DEMO
+	bool "quectel uart demo"
+	default n
+
+config  ENABLE_QUECTEL_OSI_DEMO
+	bool "quectel osi demo"
+	default n
+
+config  ENABLE_QUECTEL_TIMER_DEMO
+	bool "quectel timer demo"
+	default n
+
+config  ENABLE_QUECTEL_GPIO_DEMO
+	bool "quectel gpio demo"
+	default n
+
+config  ENABLE_QUECTEL_PWM_DEMO
+	bool "quectel pwm demo"
+	default n
+
+config  ENABLE_QUECTEL_FLASH_DEMO
+	bool "quectel flash demo"
+	default n
+
+config  ENABLE_QUECTEL_BLE_CONFIG_NETWORK_DEMO
+	bool "quectel ble config netwrok demo"
+	default n
+
+config  ENABLE_QUECTEL_WLAN_CONFIG_NETWORK_DEMO
+	bool "quectel wlan config network demo"
+	default n
+
+endmenu

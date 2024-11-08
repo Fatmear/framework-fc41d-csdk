@@ -1,0 +1,5 @@
+menu "Application Configuration"
+source "ql_application/Kconfig"
+endmenu
+
+mainmenu "Quec_bk_7231n Configuration"

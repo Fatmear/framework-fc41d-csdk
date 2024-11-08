@@ -1,0 +1,38 @@
+The target system is: Generic -  - 
+The host system is: Linux - 5.15.0-124-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/bob/WORKS/WAI_GIT/FC41D/fc4x-master/F01DR01/ql_tools/gcc-arm-none-eabi-5_4-2016q3/bin/arm-none-eabi-gcc 
+Build flags: -g;-mthumb;-mcpu=arm968e-s;-march=armv5te;-mthumb-interwork;-mlittle-endian;-Os;-std=c99;-ffunction-sections;-Wall;-Wno-implicit-function-declaration;;-Wno-format;-Wno-unknown-pragmas;-fsigned-char;-fdata-sections;-nostdlib;-fno-strict-aliasing
+Id flags:  
+
+The output was:
+0
+/home/bob/WORKS/WAI_GIT/FC41D/fc4x-master/F01DR01/ql_tools/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/bob/WORKS/WAI_GIT/FC41D/fc4x-master/F01DR01/ql_build/gccout/CMakeFiles/3.25.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/bob/WORKS/WAI_GIT/FC41D/fc4x-master/F01DR01/ql_tools/gcc-arm-none-eabi-5_4-2016q3/bin/arm-none-eabi-g++ 
+Build flags: -g;-mthumb;-mcpu=arm968e-s;-march=armv5te;-mthumb-interwork;-mlittle-endian;-Os;-std=c99;-ffunction-sections;-Wall;-Wno-implicit-function-declaration;;-Wno-format;-Wno-unknown-pragmas;-fsigned-char;-fdata-sections;-nostdlib;-fno-strict-aliasing
+Id flags:  
+
+The output was:
+0
+cc1plus: warning: command line option '-Wno-implicit-function-declaration' is valid for C/ObjC but not for C++
+cc1plus: warning: command line option '-std=c99' is valid for C/ObjC but not for C++
+/home/bob/WORKS/WAI_GIT/FC41D/fc4x-master/F01DR01/ql_tools/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/bob/WORKS/WAI_GIT/FC41D/fc4x-master/F01DR01/ql_build/gccout/CMakeFiles/3.25.1/CompilerIdCXX/a.out"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc (GNU Tools for ARM Embedded Processors) 5.4.1 20160919 (release) [ARM/embedded-5-branch revision 240496]
+Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
