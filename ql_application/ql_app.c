@@ -124,11 +124,43 @@ void ql_init_demo_start()
 #endif
 }
 
-extern void  main(void);
-void __attribute__((weak)) main(void){ }
+extern void  app_main(void);
+void __attribute__((weak)) app_main(void){ }
 
+ql_task_t app_main_thread_handle = NULL;
+
+static void app_main_thread(void *args){
+   ql_rtos_task_sleep_ms(3000);
+   app_main();
+   ql_rtos_task_delete(NULL);
+}
+
+void app_main_thread_creat(void)
+{
+    int ret;
+    ret = ql_rtos_task_create(&app_main_thread_handle,
+                              (unsigned short)1024*4,
+                              RTOS_HIGHER_PRIORTIY_THAN(3),
+                              "app_main",
+                              app_main_thread,
+                              0);
+
+    if (ret != QL_OSI_SUCCESS)
+    {
+        os_printf("Error: Failed to create fs test thread: %d\r\n", ret);
+        goto init_err;
+    }
+
+    return;
+
+init_err:
+    if (app_main_thread_handle != NULL)
+    {
+        ql_rtos_task_delete(app_main_thread_handle);
+    }
+}
 void ql_demo_main()
 {
-   main();
+   app_main_thread_creat();
 }
 #endif
